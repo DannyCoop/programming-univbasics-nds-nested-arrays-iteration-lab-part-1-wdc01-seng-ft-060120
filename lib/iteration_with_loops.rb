@@ -8,7 +8,6 @@ idx = 0
 while idx < src.length do
   inner_idx = 0
   while inner_idx < src[idx].length do
-    src[idx][inner_idx]
     if src[idx][inner_idx].even
       puts src[idx][inner_idx]
     end
