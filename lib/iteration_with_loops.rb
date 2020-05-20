@@ -9,5 +9,7 @@ while idx < src.length do
   inner_idx = 0
   while inner_idx < src[idx] do
     src[idx][inner_idx]
-    if src[idx][inner_idx] 
+    if src[idx][inner_idx].even
+      puts src[idx][inner_idx]
+    end
 end
