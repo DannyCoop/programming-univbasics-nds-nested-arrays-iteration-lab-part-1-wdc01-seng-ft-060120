@@ -6,7 +6,7 @@ def find_even_values(src)
         if src[idx][inner_idx].even?
           p src[idx][inner_idx]
         end
-        inner_idx =+ 1
+        inner_idx += 1
       end
       idx += 1
   end
