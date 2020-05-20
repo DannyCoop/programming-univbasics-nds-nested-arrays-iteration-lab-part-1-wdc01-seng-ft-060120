@@ -12,4 +12,7 @@ while idx < src.length do
     if src[idx][inner_idx].even
       puts src[idx][inner_idx]
     end
+    inner_idx += 1
+  end
+  idx =+ 1
 end
